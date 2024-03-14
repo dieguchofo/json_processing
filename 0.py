@@ -1,0 +1,1 @@
+# Esto es para ver cómo procesar metadatos.json y plaintext.json
