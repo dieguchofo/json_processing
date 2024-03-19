@@ -24,10 +24,18 @@ titulación (mal)
 Cada elemento de _esa_ lista es un diccionario, que tiene "doc_num" y "texto"
 (mal)
 
-Esto resulta en que cada trabajo de titulación está almacenado con cada página
-separada (bien) y cada una tiene anexado su doc_num (mal).
+Esto resulta en que cada trabajo de titulación esté almacenado con cada página
+separada (bien) y con su doc_num anexado (mal).
+
 Lo que debe ser es que todo sea una gran lista (listo), y que cada elemento de
 esa lista corresponda a un trabajo de titulación pero como un diccionario
 (falta), que sea así:
     {"doc_num": "x",
     "texto": ["PAG_1", "PAG_2", "ETC."]}
+
+En total debería verse así:
+    [{"doc_num": "1 (por decir)",
+    "texto": ["PAG_1", "PAG_2", "ETC."]},
+    {"doc_num": "2",
+    "texto": ["PAG_1", "PAG_2", "ETC."]},
+    {ETC.}]
