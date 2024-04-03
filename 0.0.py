@@ -20,5 +20,4 @@ while contador_1 >= 0:
     contador_1 = contador_1 - 1
     print(contador_1)
 
-print(len(doc_nums))
-
+print(doc_nums)
