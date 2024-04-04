@@ -9,7 +9,7 @@ Mis textos sagrados son metadatos.json y plaintext.json
 
 Creo que tengo que descartar "0345656_A1.pdf". El texto es ininteligible
 
-0.2.py hace una lista como la quiero:
+1.py hace una lista como la quiero:
     [
         {"doc_num": "1 (por decir)",
         "texto": ["PAG_1", "PAG_2", "ETC."]},
@@ -80,7 +80,7 @@ Lógicamente, debería hacer esto:
     - por cada elemento de la lista grandota:
         - extraer el doc_num del primer elemento (el primer diccionario). Esto lo hace 0.0.py
         - appendear a una lista el "texto" de cada diccionario            Esto lo hace 0.1.py
-        - juntar los códigos para que quede la lista bonita               Esto lo hace 0.2.py (0.0.py y 0.1.py ahora son obsoletos)
+        - juntar los códigos para que quede la lista bonita               Esto lo hace 1.py (0.0.py y 0.1.py ahora son obsoletos)
             Tengo dos listas:
                 - la de doc_nums, que sólo es una lista de strings
                 - la de texto, que es una lista de listas de strings
